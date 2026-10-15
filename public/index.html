@@ -14,6 +14,7 @@
     .nav { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
     .logo { font-size: 1.4rem; font-weight: 800; color: var(--accent); text-decoration: none; letter-spacing: -0.5px; }
     .nav-links a { color: var(--muted); text-decoration: none; margin-left: 1.25rem; font-size: 0.95rem; font-weight: 500; }
+    .nav-links a:hover { color: var(--accent); }
     .container { max-width: 960px; margin: 2.5rem auto; padding: 0 1.5rem; }
     .hero { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 2.5rem; margin-bottom: 2rem; }
     .badge { display: inline-block; background: #dbeafe; color: var(--accent); font-size: 0.8rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 999px; margin-bottom: 0.75rem; }
@@ -27,9 +28,9 @@
       <a href="/" class="logo">Wimpost</a>
       <nav class="nav-links">
         <a href="/">Guides</a>
-        <a href="#about">About</a>
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#contact">Contact</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -39,9 +40,12 @@
       <h1>Tested Settings & Troubleshooting for Modern Creators</h1>
       <p style="color: var(--muted); font-size: 1.1rem;">Step-by-step technical guides on AI dubbing, audio post-production, and creator automation tools.</p>
     </section>
+    <section id="latest-guides">
+      <!-- Spark automatically injects new article cards here -->
+    </section>
   </main>
   <footer>
-    <p>&copy; 2026 Wimpost (Workflow Intelligence Media). All rights reserved.</p>
+    <p>&copy; 2026 Wimpost (Workflow Intelligence Media). All rights reserved. | <a href="/privacy.html" style="color: var(--muted);">Privacy Policy</a> | <a href="/about.html" style="color: var(--muted);">About</a> | <a href="/contact.html" style="color: var(--muted);">Contact</a></p>
   </footer>
 </body>
 </html>
